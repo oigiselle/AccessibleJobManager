@@ -1,0 +1,9 @@
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\build.props
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\adb.props
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\JobManager.Android.csproj.AssemblyReference.cache
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\stamp\_BuildLibraryImportsCache.stamp
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\res.flag
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\R.txt
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\R.cs.flag
+C:\Users\gigs1\OneDrive\Área de Trabalho\Giselle\AccessibleJobManager\JobManager.Android\obj\Release\110\JobManager.Android.csproj.CoreCompileInputs.cache

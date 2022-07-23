@@ -4,7 +4,10 @@
              xmlns:viewmodels="clr-namespace:JobManager.ViewModels"
              xmlns:models="clr-namespace:JobManager.Models"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="JobManager.Views.JobDetailPage">
+             x:Class="JobManager.Views.JobDetailPage"
+             >
+
+    
 
     <ContentPage.BindingContext>
         <viewmodels:JobDetailViewModel/>
@@ -22,6 +25,7 @@
     <ContentPage.Content>
         <RefreshView Command="{Binding RefreshCommand}" IsRefreshing="{Binding IsBusy}">
             <StackLayout Margin="20" VerticalOptions="FillAndExpand">
+                <Entry AutomationProperties.IsInAccessibleTree="true" />
                 <Label Text="Name:" FontSize="Medium" />
                 <Entry Text="{Binding Name}" FontSize="Small"/>
                 <Label Text="Description:" FontSize="Medium" />
@@ -44,7 +48,9 @@
                                     <Image
                                         Source="{Binding Source}"
                                         WidthRequest="200"
-                                        HeightRequest="200"/>
+                                        HeightRequest="200"
+                                        AutomationProperties.IsInAccessibleTree="true"
+                                        AutomationProperties.Name="{Binding Description}"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>

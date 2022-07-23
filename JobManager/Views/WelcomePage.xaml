@@ -12,11 +12,15 @@
         <StackLayout>
             <Label Text="Welcome to Job Manager!"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                   AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.HelpText="This label will show the phone orientation after clicking on button bellow"/>
 
             <Label Text="Orientation: " FontSize="Medium" />
             <Label Text="{Binding Orientation}" FontSize="Large" />
-            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}" />
+            <Button Text="Get Orientation" Command="{Binding GetOrientationCommand}"
+                    AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.HelpText="Get the phone orientation and updates a label above the button"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

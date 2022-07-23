@@ -12,7 +12,9 @@
         <StackLayout>
             <Label Text="Map Here"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+                HorizontalOptions="CenterAndExpand" 
+                    AutomationProperties.IsInAccessibleTree="true"
+                    AutomationProperties.HelpText="Ask for permission and if allowed you show the current location" />
 
             <Button Text="Get Location" Command="{Binding GetLocationCommand}" />
         </StackLayout>

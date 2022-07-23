@@ -28,10 +28,18 @@
                 <Entry AutomationProperties.IsInAccessibleTree="true" />
                 <Label Text="Name:" FontSize="Medium" />
                 <Entry Text="{Binding Name}" FontSize="Small"/>
-                <Label Text="Description:" FontSize="Medium" />
-                <Entry Text="{Binding Description}" FontSize="Small"/>
-                <Button Text="Save" Command="{Binding SaveCommand}" />
-                <Button Text="Take Picture" Command="{Binding TakePictureCommand}" />
+                <Label Text="Description:" FontSize="Medium"
+                        AutomationProperties.IsInAccessibleTree="true"
+                        AutomationProperties.LabeledBy="{x:Reference NameLabel}" />
+                <Entry Text="{Binding Description}" FontSize="Small"
+                        AutomationProperties.IsInAccessibleTree="true"
+                        AutomationProperties.LabeledBy="{x:Reference DescriptionLabel}" />
+                <Button Text="Save" Command="{Binding SaveCommand}"
+                        AutomationProperties.IsInAccessibleTree="true"
+                        AutomationProperties.HelpText="Saves the inserted data"/>
+                <Button Text="Take Picture" Command="{Binding TakePictureCommand}" 
+                        AutomationProperties.IsInAccessibleTree="true"
+                        AutomationProperties.HelpText="Asks for camera permission and if allowed you will be able to send a picture for the job"/>
                 <Image Source="{Binding Picture}"/>
 
                 <Label Text="Pictures:" FontSize="Large" />
